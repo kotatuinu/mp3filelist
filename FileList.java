@@ -1,21 +1,21 @@
 /**
- * ID3Tag�擾�v���O�����FFileList�N���X
- *  �w��f�B���N�g���ȉ��̃t�@�C���ꗗ���擾����N���X
+ * ID3Tag取得プログラム：FileListクラス
+ *  指定ディレクトリ以下のファイル一覧を取得するクラス
  *
  * Copyleft 2008, Kotatuinu.
  *
  * title   : ID3Tag Getter
- * author  : �x����
+ * author  : 炬燵犬
  * version : 0.1
  * mail    : kotatuinu@nifty.com
  * Website : http://homepage2.nifty.com/kotatuinu/
  * Released: 2008/03/09
  * NOTICE  : 
- * �{�v���O�����́A���p���p����щ��������R�ɍs���Ă��������Ă����܂��܂���B
- * �������Ajava�̍X�Ȃ锭�W�̂��߁A���������\�[�X�͌��J���Ă��������B
- * ���p�E�����̘A���͕s�v�ł��B
- * �Ȃ��A�{�v���O�����̗��p�ɂ�肠�Ȃ��A�܂��͂��Ȃ��̎��͂ɑ��Q���������Ă��A
- * �����͈�؊֒m���܂���B
+ * 本プログラムは、商用利用および改造を自由に行ってくださってもかまいません。
+ * ただし、javaの更なる発展のため、改造したソースは公開してください。
+ * 利用・改造の連絡は不要です。
+ * なお、本プログラムの利用によりあなた、またはあなたの周囲に損害が発生しても、
+ * 当方は一切関知しません。
  *  - USE THIS PROGRAM AT YOUR OWN RISK -
 **/
 package mp3filelist;

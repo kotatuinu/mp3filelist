@@ -1,21 +1,21 @@
 /**
- * ID3TagŽæ“¾ƒvƒƒOƒ‰ƒ€FID3V2InfoƒNƒ‰ƒX
- *  ID3Tag‚ÌVer2.3 Žæ“¾ƒNƒ‰ƒX
+ * ID3Tagå–å¾—ãƒ—ãƒ­ã‚°ãƒ©ãƒ ï¼šID3V2Infoã‚¯ãƒ©ã‚¹
+ *  ID3Tagã®Ver2.3 å–å¾—ã‚¯ãƒ©ã‚¹
  *
  * Copyleft 2008, Kotatuinu.
  *
  * title   : ID3Tag Getter
- * author  : àxàŒ¢
+ * author  : ç‚¬ç‡µçŠ¬
  * version : 0.1
  * mail    : kotatuinu@nifty.com
  * Website : http://homepage2.nifty.com/kotatuinu/
  * Released: 2008/03/09
  * NOTICE  : 
- * –{ƒvƒƒOƒ‰ƒ€‚ÍA¤—p—˜—p‚¨‚æ‚Ñ‰ü‘¢‚ðŽ©—R‚És‚Á‚Ä‚­‚¾‚³‚Á‚Ä‚à‚©‚Ü‚¢‚Ü‚¹‚ñB
- * ‚½‚¾‚µAjava‚ÌX‚È‚é”­“W‚Ì‚½‚ßA‰ü‘¢‚µ‚½ƒ\[ƒX‚ÍŒöŠJ‚µ‚Ä‚­‚¾‚³‚¢B
- * —˜—pE‰ü‘¢‚Ì˜A—‚Í•s—v‚Å‚·B
- * ‚È‚¨A–{ƒvƒƒOƒ‰ƒ€‚Ì—˜—p‚É‚æ‚è‚ ‚È‚½A‚Ü‚½‚Í‚ ‚È‚½‚ÌŽüˆÍ‚É‘¹ŠQ‚ª”­¶‚µ‚Ä‚àA
- * “–•û‚ÍˆêØŠÖ’m‚µ‚Ü‚¹‚ñB
+ * æœ¬ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã¯ã€å•†ç”¨åˆ©ç”¨ãŠã‚ˆã³æ”¹é€ ã‚’è‡ªç”±ã«è¡Œã£ã¦ãã ã•ã£ã¦ã‚‚ã‹ã¾ã„ã¾ã›ã‚“ã€‚
+ * ãŸã ã—ã€javaã®æ›´ãªã‚‹ç™ºå±•ã®ãŸã‚ã€æ”¹é€ ã—ãŸã‚½ãƒ¼ã‚¹ã¯å…¬é–‹ã—ã¦ãã ã•ã„ã€‚
+ * åˆ©ç”¨ãƒ»æ”¹é€ ã®é€£çµ¡ã¯ä¸è¦ã§ã™ã€‚
+ * ãªãŠã€æœ¬ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã®åˆ©ç”¨ã«ã‚ˆã‚Šã‚ãªãŸã€ã¾ãŸã¯ã‚ãªãŸã®å‘¨å›²ã«æå®³ãŒç™ºç”Ÿã—ã¦ã‚‚ã€
+ * å½“æ–¹ã¯ä¸€åˆ‡é–¢çŸ¥ã—ã¾ã›ã‚“ã€‚
  *  - USE THIS PROGRAM AT YOUR OWN RISK -
 **/
 package mp3filelist;
@@ -57,21 +57,21 @@ public class ID3V2Info extends MP3Info {
 	}
 
 	/**
-	 * ID3:ƒ^ƒCƒgƒ‹‚ðŽæ“¾
+	 * ID3:ã‚¿ã‚¤ãƒˆãƒ«ã‚’å–å¾—
 	 */
 	public String getTitle() {
 		return Title_;
 	}
 
 	/**
-	 * ID3:ƒA[ƒeƒBƒXƒg–¼‚ðŽæ“¾
+	 * ID3:ã‚¢ãƒ¼ãƒ†ã‚£ã‚¹ãƒˆåã‚’å–å¾—
 	 */
 	public String getArtist() {
 		return Artist_;
 	}
 
 	/**
-	 * ID3:ƒAƒ‹ƒoƒ€–¼‚ðŽæ“¾
+	 * ID3:ã‚¢ãƒ«ãƒãƒ åã‚’å–å¾—
 	 */
 	public String getAlbum() {
 		return Album_;
@@ -79,21 +79,21 @@ public class ID3V2Info extends MP3Info {
 
 
 	/**
-	 * ID3:ì¬”N‚ðŽæ“¾
+	 * ID3:ä½œæˆå¹´ã‚’å–å¾—
 	 */
 	public String getYear() {
 		return Year_;
 	}
 
 	/**
-	 * ID3:ƒRƒƒ“ƒg‚ðŽæ“¾
+	 * ID3:ã‚³ãƒ¡ãƒ³ãƒˆã‚’å–å¾—
 	 */
 	public String getComment() {
 		return Comment_;
 	}
 
 	/**
-	 * ID3:ƒgƒ‰ƒbƒN”Ô†‚ðŽæ“¾(v1.1ˆÈ~)
+	 * ID3:ãƒˆãƒ©ãƒƒã‚¯ç•ªå·ã‚’å–å¾—(v1.1ä»¥é™)
 	 */
 	public long getTrackNo() {
 		return TrackNo_;
@@ -101,21 +101,21 @@ public class ID3V2Info extends MP3Info {
 
 
 	/**
-	 * ID3:ƒWƒƒƒ“ƒ‹”Ô†‚ðŽæ“¾
+	 * ID3:ã‚¸ãƒ£ãƒ³ãƒ«ç•ªå·ã‚’å–å¾—
 	 */
 	public long getGenre() {
 		return Genre_;
 	}
 
 	/**
-	 * ID3:ƒ^ƒOƒo[ƒWƒ‡ƒ“‚ðŽæ“¾
+	 * ID3:ã‚¿ã‚°ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚’å–å¾—
 	 */
 	public String getTagVersion() {
 		return "2.3";
 	}
 
 	/**
-	 * ID3V2‚©”»’è
+	 * ID3V2ã‹åˆ¤å®š
 	 * @note MP3 Tag V2 is Fast 1-3Byte data = ID3(0x49, 0x44, 0x33)
 	 */
 	static public boolean isSettingID3(File objFile) {
@@ -169,8 +169,8 @@ public class ID3V2Info extends MP3Info {
 		
 		static public long Size_;
 		static public byte Flags_[] = null;
-		static public long PaddingSize_;	// Padding‚ÍFrame‚ÌŒã‚Æƒf[ƒ^‚Ì‘O‚É–„‚ß‚é—Ìˆæ
-		static public byte CRC_[] = null;	// CRC‚ÍFlags‚ÌMSB‚ªON‚Ì‚Æ‚«‚É‚ ‚é
+		static public long PaddingSize_;	// Paddingã¯Frameã®å¾Œã¨ãƒ‡ãƒ¼ã‚¿ã®å‰ã«åŸ‹ã‚ã‚‹é ˜åŸŸ
+		static public byte CRC_[] = null;	// CRCã¯Flagsã®MSBãŒONã®ã¨ãã«ã‚ã‚‹
 
 		static public void clear() {
 			Size_ = 0;
@@ -335,7 +335,7 @@ public class ID3V2Info extends MP3Info {
 	}
 
 	/**
-	 * ID3:ƒ^ƒCƒgƒ‹‚ðŽæ“¾
+	 * ID3:ã‚¿ã‚¤ãƒˆãƒ«ã‚’å–å¾—
 	 */
 	private String getTitle_() throws UnsupportedEncodingException {
 		ID3V2Frame objID3V2;
@@ -348,7 +348,7 @@ public class ID3V2Info extends MP3Info {
 	}
 
 	/**
-	 * ID3:ƒA[ƒeƒBƒXƒg–¼‚ðŽæ“¾
+	 * ID3:ã‚¢ãƒ¼ãƒ†ã‚£ã‚¹ãƒˆåã‚’å–å¾—
 	 */
 	private String getArtist_() throws UnsupportedEncodingException {
 		ID3V2Frame objID3V2;
@@ -361,7 +361,7 @@ public class ID3V2Info extends MP3Info {
 	}
 
 	/**
-	 * ID3:ƒAƒ‹ƒoƒ€–¼‚ðŽæ“¾
+	 * ID3:ã‚¢ãƒ«ãƒãƒ åã‚’å–å¾—
 	 */
 	private String getAlbum_() throws UnsupportedEncodingException {
 		ID3V2Frame objID3V2;
@@ -375,7 +375,7 @@ public class ID3V2Info extends MP3Info {
 
 
 	/**
-	 * ID3:ì¬”N‚ðŽæ“¾
+	 * ID3:ä½œæˆå¹´ã‚’å–å¾—
 	 */
 	private String getYear_() throws UnsupportedEncodingException {
 		ID3V2Frame objID3V2;
@@ -388,7 +388,7 @@ public class ID3V2Info extends MP3Info {
 	}
 
 	/**
-	 * ID3:ƒRƒƒ“ƒg‚ðŽæ“¾
+	 * ID3:ã‚³ãƒ¡ãƒ³ãƒˆã‚’å–å¾—
 	 */
 	private String getComment_() throws UnsupportedEncodingException {
 		ID3V2Frame objID3V2;
@@ -401,7 +401,7 @@ public class ID3V2Info extends MP3Info {
 	}
 
 	/**
-	 * ID3:ƒgƒ‰ƒbƒN”Ô†‚ðŽæ“¾(v1.1ˆÈ~)
+	 * ID3:ãƒˆãƒ©ãƒƒã‚¯ç•ªå·ã‚’å–å¾—(v1.1ä»¥é™)
 	 */
 	private long getTrackNo_() {
 
@@ -416,15 +416,15 @@ public class ID3V2Info extends MP3Info {
 			return -1;
 		}
 
-		// ”Žš‚ðŽæ“¾‚·‚éB”ŽšˆÈŠO‚Ì•¶Žš‚ªo‚½‚çI—¹
+		// æ•°å­—ã‚’å–å¾—ã™ã‚‹ã€‚æ•°å­—ä»¥å¤–ã®æ–‡å­—ãŒå‡ºãŸã‚‰çµ‚äº†
 		for(i=0; i > objID3V2.Size_; i++) {
 			switch(iState) {
-			case 0: // ”Žš•¶ŽšŽæ“¾
+			case 0: // æ•°å­—æ–‡å­—å–å¾—
 				if( Character.isDigit( (char)objID3V2.Data_[i] ) ) {
 					lTrackNo = lTrackNo * 10 + Long.parseLong(new String(objID3V2.Data_, i, 1));
 					bIsGetTrackNo = true;
 				} else {
-					iState = 1; // ”ŽšˆÈŠO‚Ì•¶Žš‚ªo‚½‚Æ‚«A”Žš‚ÌŽæ“¾I—¹
+					iState = 1; // æ•°å­—ä»¥å¤–ã®æ–‡å­—ãŒå‡ºãŸã¨ãã€æ•°å­—ã®å–å¾—çµ‚äº†
 				}
 				break;
 			}
@@ -433,7 +433,7 @@ public class ID3V2Info extends MP3Info {
 			}
 		}
 
-		// TrackNo‚ªÝ’è‚³‚ê‚Ä‚¢‚È‚¢ê‡‚Í-1‚ð•Ô‚·B
+		// TrackNoãŒè¨­å®šã•ã‚Œã¦ã„ãªã„å ´åˆã¯-1ã‚’è¿”ã™ã€‚
 		if(!bIsGetTrackNo) {
 			lTrackNo = -1;
 		}
@@ -443,7 +443,7 @@ public class ID3V2Info extends MP3Info {
 
 
 	/**
-	 * ID3:ƒWƒƒƒ“ƒ‹”Ô†‚ðŽæ“¾
+	 * ID3:ã‚¸ãƒ£ãƒ³ãƒ«ç•ªå·ã‚’å–å¾—
 	 */
 	private long getGenre_() {
 
@@ -458,21 +458,21 @@ public class ID3V2Info extends MP3Info {
 			return -1;
 		}
 
-		// ‚Í‚¶‚ß‚Éo‚Ä‚«‚½"("‚Æ")"‚ÌŠÔ‚Ì”’l‚ð•Ô‚·B”’l‚¶‚á‚È‚¢‚Æ‚«‚Í-1‚ð•Ô‚·B
+		// ã¯ã˜ã‚ã«å‡ºã¦ããŸ"("ã¨")"ã®é–“ã®æ•°å€¤ã‚’è¿”ã™ã€‚æ•°å€¤ã˜ã‚ƒãªã„ã¨ãã¯-1ã‚’è¿”ã™ã€‚
 		for(i=0; objID3V2.Size_ > i; i++) {
 			switch(iState) {
 			case 0:
 				if((new String(objID3V2.Data_, i, 1)).equals("(") ) {
-					iState = 1; // "("”­Œ©
+					iState = 1; // "("ç™ºè¦‹
 				}
 				break;
 
-			case 1: // "("“à‚Ì”Žš•¶ŽšŽæ“¾
+			case 1: // "("å†…ã®æ•°å­—æ–‡å­—å–å¾—
 				if( Character.isDigit( (char)objID3V2.Data_[i] ) ) {
 					lGenre = lGenre * 10 + Long.parseLong(new String(objID3V2.Data_, i, 1));
 					bIsGetGenre = true;
 				} else {
-					iState = 2; // "("ˆÈ~‚É”ŽšˆÈŠO‚Ì•¶Žš‚ªo‚½‚Æ‚«A”Žš‚ÌŽæ“¾I—¹
+					iState = 2; // "("ä»¥é™ã«æ•°å­—ä»¥å¤–ã®æ–‡å­—ãŒå‡ºãŸã¨ãã€æ•°å­—ã®å–å¾—çµ‚äº†
 				}
 				break;
 			}
@@ -481,7 +481,7 @@ public class ID3V2Info extends MP3Info {
 			}
 		}
 
-		// ƒWƒƒƒ“ƒ‹‚ªÝ’è‚³‚ê‚Ä‚¢‚È‚¢ê‡‚Í-1‚ð•Ô‚·B
+		// ã‚¸ãƒ£ãƒ³ãƒ«ãŒè¨­å®šã•ã‚Œã¦ã„ãªã„å ´åˆã¯-1ã‚’è¿”ã™ã€‚
 		if(!bIsGetGenre) {
 			lGenre = -1;
 		}
@@ -492,84 +492,84 @@ public class ID3V2Info extends MP3Info {
 }
 
 
-// ID3 v2.3 ƒ^ƒOID‚ÌˆÓ–¡
-//  TODO:v1‚Å‘¶Ý‚·‚é‚à‚Ì‚Íƒƒ“ƒo•Ï”‚É•ú‚èž‚ÞBv1
-//      ‚ ‚Æ‚ÍƒŠƒXƒg‚É“Ë‚Áž‚ÞBID‚Æ’l‚Ì‘Î‚É‚È‚Á‚½‚à‚Ì‚ð“ü‚ê‚é
+// ID3 v2.3 ã‚¿ã‚°IDã®æ„å‘³
+//  TODO:v1ã§å­˜åœ¨ã™ã‚‹ã‚‚ã®ã¯ãƒ¡ãƒ³ãƒå¤‰æ•°ã«æ”¾ã‚Šè¾¼ã‚€ã€‚v1
+//      ã‚ã¨ã¯ãƒªã‚¹ãƒˆã«çªã£è¾¼ã‚€ã€‚IDã¨å€¤ã®å¯¾ã«ãªã£ãŸã‚‚ã®ã‚’å…¥ã‚Œã‚‹
 /*
-AENC	ƒI[ƒfƒBƒI‚ÌˆÃ†‰»
-APIC	•t‘®‚·‚é‰æ‘œ
-COMM	ƒRƒƒ“ƒg
-COMR	ƒRƒ}[ƒVƒƒƒ‹ƒtƒŒ[ƒ€
-ENCR	ˆÃ†‰»‚ÌŽè–@‚Ì“o˜^
-EQUA	‹Ïˆê‰»
-ETCO	ƒCƒxƒ“ƒgƒ^ƒCƒ€ƒR[ƒh
-GEOB	ƒpƒbƒP[ƒW‰»‚³‚ê‚½ˆê”Ê“I‚ÈƒIƒuƒWƒFƒNƒg
-GRID	ƒOƒ‹[ƒvŽ¯•ÊŽq‚Ì“o˜^
-IPLS	‹¦—ÍŽÒ
-LINK	ƒŠƒ“ƒNî•ñ
-MCDI	‰¹Šy‚b‚cŽ¯•ÊŽq
-MLLT	MPEG ƒƒP[ƒVƒ‡ƒ“ƒ‹ƒbƒNƒAƒbƒvƒe[ƒuƒ‹
-OWNE	Š—LŒ ƒtƒŒ[ƒ€
-PRIV	ƒvƒ‰ƒCƒx[ƒgƒtƒŒ[ƒ€ƒvƒ‰ƒCƒx[ƒgƒtƒŒ[ƒ€
-PCNT	‰‰‘t‰ñ”
-POPM	l‹Cƒ[ƒ^[
-POSS	“¯ŠúˆÊ’uƒtƒŒ[ƒ€
-RBUF	‚¨‚·‚·‚ßƒoƒbƒtƒ@ƒTƒCƒY
-RVAD	‘Š‘Î“Iƒ{ƒŠƒ…[ƒ€’²®
-RVRB	ƒŠƒo[ƒu
-SYLT	“¯Šú ‰ÌŽŒ/•¶‘
-SYTC	“¯Šú ƒeƒ“ƒ|ƒR[ƒh
-TALB	ƒAƒ‹ƒoƒ€/‰f‰æ/ƒVƒ‡[‚Ìƒ^ƒCƒgƒ‹
-TBPM	BPM (beats per minuteFˆê•ªŠÔ‚Ì””)
-TCOM	ì‹ÈŽÒ
-TCON	“à—e‚Ìƒ^ƒCƒv
-TCOP	’˜ìŒ î•ñ
-TDAT	“ú•t
-TDLY	ƒvƒŒƒCƒŠƒXƒg’x‰„ŽžŠÔ
-TENC	ƒGƒ“ƒR[ƒh‚µ‚½l
-TEXT	ìŽŒ‰Æ/•¶‘ì¬ŽÒ
-TFLT	ƒtƒ@ƒCƒ‹ƒ^ƒCƒv
-TIME	ŽžŠÔ
-TIT1	“à—e‚Ì‘®‚·‚éƒOƒ‹[ƒv‚Ìà–¾
-TIT2	ƒ^ƒCƒgƒ‹/‹È–¼/“à—e‚Ìà–¾
-TIT3	ƒTƒuƒ^ƒCƒgƒ‹/à–¾‚Ì’Ç‰Áî•ñ
-TKEY	‰‚ß‚Ì’²
-TLAN	Œ¾Œê
-TLEN	’·‚³
-TMED	ƒƒfƒBƒAƒ^ƒCƒv
-TOAL	ƒIƒŠƒWƒiƒ‹‚ÌƒAƒ‹ƒoƒ€/‰f‰æ/ƒVƒ‡[‚Ìƒ^ƒCƒgƒ‹
-TOFN	ƒIƒŠƒWƒiƒ‹ƒtƒ@ƒCƒ‹–¼
-TOLY	ƒIƒŠƒWƒiƒ‹‚ÌìŽŒ‰Æ/•¶‘ì¬ŽÒ
-TOPE	ƒIƒŠƒWƒiƒ‹ƒA[ƒeƒBƒXƒg/‰‰‘tŽÒ
-TORY	ƒIƒŠƒWƒiƒ‹‚ÌƒŠƒŠ[ƒX”N
-TOWN	ƒtƒ@ƒCƒ‹‚ÌŠ—LŽÒ/ƒ‰ƒCƒZƒ“ƒV[
-TPE1	Žå‚È‰‰‘tŽÒ/ƒ\ƒŠƒXƒg
-TPE2	ƒoƒ“ƒh/ƒI[ƒPƒXƒgƒ‰/”º‘t
-TPE3	ŽwŠöŽÒ/‰‰‘tŽÒÚ×î•ñ
-TPE4	–|–óŽÒ, ƒŠƒ~ƒbƒNƒX, ‚»‚Ì‘¼‚ÌC³
-TPOS	ƒZƒbƒg’†‚ÌˆÊ’u
-TPUB	o”ÅŽÐ
-TRCK	ƒgƒ‰ƒbƒN‚Ì”Ô†/ƒZƒbƒg’†‚ÌˆÊ’u
-TRDA	˜^‰¹“ú•t
-TRSN	ƒCƒ“ƒ^[ƒlƒbƒgƒ‰ƒWƒI‹Ç‚Ì–¼‘O
-TRSO	ƒCƒ“ƒ^[ƒlƒbƒgƒ‰ƒWƒI‹Ç‚ÌŠ—LŽÒ
-TSIZ	ƒTƒCƒY
-TSRC	ISRC (international standard recording codeF‘Û•W€ƒŒƒR[ƒfƒBƒ“ƒOƒR[ƒh)
-TSSE	ƒGƒ“ƒR[ƒh‚ÉŽg—p‚µ‚½ƒ\ƒtƒgƒEƒGƒA/ƒn[ƒhƒEƒGƒA‚ÆƒZƒbƒeƒBƒ“ƒO
-TYER	”N
-TXXX	ƒ†[ƒU[’è‹`•¶Žšî•ñƒtƒŒ[ƒ€
-UFID	ˆêˆÓ“I‚Èƒtƒ@ƒCƒ‹Ž¯•ÊŽq
-USER	Žg—pðŒ
-USLT	”ñ“¯Šú ‰ÌŽŒ/•¶‘‚ÌƒRƒs[
-WCOM	¤‹Æã‚Ìî•ñ
-WCOP	’˜ìŒ /–@“Iî•ñ
-WOAF	ƒI[ƒfƒBƒIƒtƒ@ƒCƒ‹‚ÌŒöŽ®Webƒy[ƒW
-WOAR	ƒA[ƒeƒBƒXƒg/‰‰‘tŽÒ‚ÌŒöŽ®Webƒy[ƒW
-WOAS	‰¹Œ¹‚ÌŒöŽ®Webƒy[ƒW
-WORS	ƒCƒ“ƒ^[ƒlƒbƒgƒ‰ƒWƒI‹Ç‚ÌŒöŽ®ƒz[ƒ€ƒy[ƒW
-WPAY	Žx•¥‚¢
-WPUB	o”ÅŽÐ‚ÌŒöŽ®Webƒy[ƒW
-WXXX	ƒ†[ƒU[’è‹`URLƒŠƒ“ƒNƒtƒŒ[ƒ€
+AENC	ã‚ªãƒ¼ãƒ‡ã‚£ã‚ªã®æš—å·åŒ–
+APIC	ä»˜å±žã™ã‚‹ç”»åƒ
+COMM	ã‚³ãƒ¡ãƒ³ãƒˆ
+COMR	ã‚³ãƒžãƒ¼ã‚·ãƒ£ãƒ«ãƒ•ãƒ¬ãƒ¼ãƒ 
+ENCR	æš—å·åŒ–ã®æ‰‹æ³•ã®ç™»éŒ²
+EQUA	å‡ä¸€åŒ–
+ETCO	ã‚¤ãƒ™ãƒ³ãƒˆã‚¿ã‚¤ãƒ ã‚³ãƒ¼ãƒ‰
+GEOB	ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸åŒ–ã•ã‚ŒãŸä¸€èˆ¬çš„ãªã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆ
+GRID	ã‚°ãƒ«ãƒ¼ãƒ—è­˜åˆ¥å­ã®ç™»éŒ²
+IPLS	å”åŠ›è€…
+LINK	ãƒªãƒ³ã‚¯æƒ…å ±
+MCDI	éŸ³æ¥½ï¼£ï¼¤è­˜åˆ¥å­
+MLLT	MPEG ãƒ­ã‚±ãƒ¼ã‚·ãƒ§ãƒ³ãƒ«ãƒƒã‚¯ã‚¢ãƒƒãƒ—ãƒ†ãƒ¼ãƒ–ãƒ«
+OWNE	æ‰€æœ‰æ¨©ãƒ•ãƒ¬ãƒ¼ãƒ 
+PRIV	ãƒ—ãƒ©ã‚¤ãƒ™ãƒ¼ãƒˆãƒ•ãƒ¬ãƒ¼ãƒ ãƒ—ãƒ©ã‚¤ãƒ™ãƒ¼ãƒˆãƒ•ãƒ¬ãƒ¼ãƒ 
+PCNT	æ¼”å¥å›žæ•°
+POPM	äººæ°—ãƒ¡ãƒ¼ã‚¿ãƒ¼
+POSS	åŒæœŸä½ç½®ãƒ•ãƒ¬ãƒ¼ãƒ 
+RBUF	ãŠã™ã™ã‚ãƒãƒƒãƒ•ã‚¡ã‚µã‚¤ã‚º
+RVAD	ç›¸å¯¾çš„ãƒœãƒªãƒ¥ãƒ¼ãƒ èª¿æ•´
+RVRB	ãƒªãƒãƒ¼ãƒ–
+SYLT	åŒæœŸ æ­Œè©ž/æ–‡æ›¸
+SYTC	åŒæœŸ ãƒ†ãƒ³ãƒã‚³ãƒ¼ãƒ‰
+TALB	ã‚¢ãƒ«ãƒãƒ /æ˜ ç”»/ã‚·ãƒ§ãƒ¼ã®ã‚¿ã‚¤ãƒˆãƒ«
+TBPM	BPM (beats per minuteï¼šä¸€åˆ†é–“ã®æ‹æ•°)
+TCOM	ä½œæ›²è€…
+TCON	å†…å®¹ã®ã‚¿ã‚¤ãƒ—
+TCOP	è‘—ä½œæ¨©æƒ…å ±
+TDAT	æ—¥ä»˜
+TDLY	ãƒ—ãƒ¬ã‚¤ãƒªã‚¹ãƒˆé…å»¶æ™‚é–“
+TENC	ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‰ã—ãŸäºº
+TEXT	ä½œè©žå®¶/æ–‡æ›¸ä½œæˆè€…
+TFLT	ãƒ•ã‚¡ã‚¤ãƒ«ã‚¿ã‚¤ãƒ—
+TIME	æ™‚é–“
+TIT1	å†…å®¹ã®å±žã™ã‚‹ã‚°ãƒ«ãƒ¼ãƒ—ã®èª¬æ˜Ž
+TIT2	ã‚¿ã‚¤ãƒˆãƒ«/æ›²å/å†…å®¹ã®èª¬æ˜Ž
+TIT3	ã‚µãƒ–ã‚¿ã‚¤ãƒˆãƒ«/èª¬æ˜Žã®è¿½åŠ æƒ…å ±
+TKEY	åˆã‚ã®èª¿
+TLAN	è¨€èªž
+TLEN	é•·ã•
+TMED	ãƒ¡ãƒ‡ã‚£ã‚¢ã‚¿ã‚¤ãƒ—
+TOAL	ã‚ªãƒªã‚¸ãƒŠãƒ«ã®ã‚¢ãƒ«ãƒãƒ /æ˜ ç”»/ã‚·ãƒ§ãƒ¼ã®ã‚¿ã‚¤ãƒˆãƒ«
+TOFN	ã‚ªãƒªã‚¸ãƒŠãƒ«ãƒ•ã‚¡ã‚¤ãƒ«å
+TOLY	ã‚ªãƒªã‚¸ãƒŠãƒ«ã®ä½œè©žå®¶/æ–‡æ›¸ä½œæˆè€…
+TOPE	ã‚ªãƒªã‚¸ãƒŠãƒ«ã‚¢ãƒ¼ãƒ†ã‚£ã‚¹ãƒˆ/æ¼”å¥è€…
+TORY	ã‚ªãƒªã‚¸ãƒŠãƒ«ã®ãƒªãƒªãƒ¼ã‚¹å¹´
+TOWN	ãƒ•ã‚¡ã‚¤ãƒ«ã®æ‰€æœ‰è€…/ãƒ©ã‚¤ã‚»ãƒ³ã‚·ãƒ¼
+TPE1	ä¸»ãªæ¼”å¥è€…/ã‚½ãƒªã‚¹ãƒˆ
+TPE2	ãƒãƒ³ãƒ‰/ã‚ªãƒ¼ã‚±ã‚¹ãƒˆãƒ©/ä¼´å¥
+TPE3	æŒ‡æ®è€…/æ¼”å¥è€…è©³ç´°æƒ…å ±
+TPE4	ç¿»è¨³è€…, ãƒªãƒŸãƒƒã‚¯ã‚¹, ãã®ä»–ã®ä¿®æ­£
+TPOS	ã‚»ãƒƒãƒˆä¸­ã®ä½ç½®
+TPUB	å‡ºç‰ˆç¤¾
+TRCK	ãƒˆãƒ©ãƒƒã‚¯ã®ç•ªå·/ã‚»ãƒƒãƒˆä¸­ã®ä½ç½®
+TRDA	éŒ²éŸ³æ—¥ä»˜
+TRSN	ã‚¤ãƒ³ã‚¿ãƒ¼ãƒãƒƒãƒˆãƒ©ã‚¸ã‚ªå±€ã®åå‰
+TRSO	ã‚¤ãƒ³ã‚¿ãƒ¼ãƒãƒƒãƒˆãƒ©ã‚¸ã‚ªå±€ã®æ‰€æœ‰è€…
+TSIZ	ã‚µã‚¤ã‚º
+TSRC	ISRC (international standard recording codeï¼šå›½éš›æ¨™æº–ãƒ¬ã‚³ãƒ¼ãƒ‡ã‚£ãƒ³ã‚°ã‚³ãƒ¼ãƒ‰)
+TSSE	ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‰ã«ä½¿ç”¨ã—ãŸã‚½ãƒ•ãƒˆã‚¦ã‚¨ã‚¢/ãƒãƒ¼ãƒ‰ã‚¦ã‚¨ã‚¢ã¨ã‚»ãƒƒãƒ†ã‚£ãƒ³ã‚°
+TYER	å¹´
+TXXX	ãƒ¦ãƒ¼ã‚¶ãƒ¼å®šç¾©æ–‡å­—æƒ…å ±ãƒ•ãƒ¬ãƒ¼ãƒ 
+UFID	ä¸€æ„çš„ãªãƒ•ã‚¡ã‚¤ãƒ«è­˜åˆ¥å­
+USER	ä½¿ç”¨æ¡ä»¶
+USLT	éžåŒæœŸ æ­Œè©ž/æ–‡æ›¸ã®ã‚³ãƒ”ãƒ¼
+WCOM	å•†æ¥­ä¸Šã®æƒ…å ±
+WCOP	è‘—ä½œæ¨©/æ³•çš„æƒ…å ±
+WOAF	ã‚ªãƒ¼ãƒ‡ã‚£ã‚ªãƒ•ã‚¡ã‚¤ãƒ«ã®å…¬å¼Webãƒšãƒ¼ã‚¸
+WOAR	ã‚¢ãƒ¼ãƒ†ã‚£ã‚¹ãƒˆ/æ¼”å¥è€…ã®å…¬å¼Webãƒšãƒ¼ã‚¸
+WOAS	éŸ³æºã®å…¬å¼Webãƒšãƒ¼ã‚¸
+WORS	ã‚¤ãƒ³ã‚¿ãƒ¼ãƒãƒƒãƒˆãƒ©ã‚¸ã‚ªå±€ã®å…¬å¼ãƒ›ãƒ¼ãƒ ãƒšãƒ¼ã‚¸
+WPAY	æ”¯æ‰•ã„
+WPUB	å‡ºç‰ˆç¤¾ã®å…¬å¼Webãƒšãƒ¼ã‚¸
+WXXX	ãƒ¦ãƒ¼ã‚¶ãƒ¼å®šç¾©URLãƒªãƒ³ã‚¯ãƒ•ãƒ¬ãƒ¼ãƒ 
 */
 
 

@@ -1,21 +1,21 @@
 /**
- * ID3Tagæ“¾ƒvƒƒOƒ‰ƒ€FMP3InfoƒNƒ‰ƒX
- *  ID3Tag‚ÌVer1.0/1.1‚ÆVer2.3 æ“¾ƒNƒ‰ƒX‚ÌƒX[ƒp[ƒNƒ‰ƒX
+ * ID3Tagå–å¾—ãƒ—ãƒ­ã‚°ãƒ©ãƒ ï¼šMP3Infoã‚¯ãƒ©ã‚¹
+ *  ID3Tagã®Ver1.0/1.1ã¨Ver2.3 å–å¾—ã‚¯ãƒ©ã‚¹ã®ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¯ãƒ©ã‚¹
  *
  * Copyleft 2008, Kotatuinu.
  *
  * title   : ID3Tag Getter
- * author  : àxàŒ¢
+ * author  : ç‚¬ç‡µçŠ¬
  * version : 0.1
  * mail    : kotatuinu@nifty.com
  * Website : http://homepage2.nifty.com/kotatuinu/
  * Released: 2008/03/09
  * NOTICE  : 
- * –{ƒvƒƒOƒ‰ƒ€‚ÍA¤—p—˜—p‚¨‚æ‚Ñ‰ü‘¢‚ğ©—R‚És‚Á‚Ä‚­‚¾‚³‚Á‚Ä‚à‚©‚Ü‚¢‚Ü‚¹‚ñB
- * ‚½‚¾‚µAjava‚ÌX‚È‚é”­“W‚Ì‚½‚ßA‰ü‘¢‚µ‚½ƒ\[ƒX‚ÍŒöŠJ‚µ‚Ä‚­‚¾‚³‚¢B
- * —˜—pE‰ü‘¢‚Ì˜A—‚Í•s—v‚Å‚·B
- * ‚È‚¨A–{ƒvƒƒOƒ‰ƒ€‚Ì—˜—p‚É‚æ‚è‚ ‚È‚½A‚Ü‚½‚Í‚ ‚È‚½‚ÌüˆÍ‚É‘¹ŠQ‚ª”­¶‚µ‚Ä‚àA
- * “–•û‚ÍˆêØŠÖ’m‚µ‚Ü‚¹‚ñB
+ * æœ¬ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã¯ã€å•†ç”¨åˆ©ç”¨ãŠã‚ˆã³æ”¹é€ ã‚’è‡ªç”±ã«è¡Œã£ã¦ãã ã•ã£ã¦ã‚‚ã‹ã¾ã„ã¾ã›ã‚“ã€‚
+ * ãŸã ã—ã€javaã®æ›´ãªã‚‹ç™ºå±•ã®ãŸã‚ã€æ”¹é€ ã—ãŸã‚½ãƒ¼ã‚¹ã¯å…¬é–‹ã—ã¦ãã ã•ã„ã€‚
+ * åˆ©ç”¨ãƒ»æ”¹é€ ã®é€£çµ¡ã¯ä¸è¦ã§ã™ã€‚
+ * ãªãŠã€æœ¬ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã®åˆ©ç”¨ã«ã‚ˆã‚Šã‚ãªãŸã€ã¾ãŸã¯ã‚ãªãŸã®å‘¨å›²ã«æå®³ãŒç™ºç”Ÿã—ã¦ã‚‚ã€
+ * å½“æ–¹ã¯ä¸€åˆ‡é–¢çŸ¥ã—ã¾ã›ã‚“ã€‚
  *  - USE THIS PROGRAM AT YOUR OWN RISK -
 **/
 package mp3filelist;
@@ -36,28 +36,28 @@ abstract class MP3Info {
 	static protected File objFile_ = null;
 
 	/**
-	 * ƒtƒ@ƒCƒ‹î•ñ:ƒpƒX‚ğæ“¾
+	 * ãƒ•ã‚¡ã‚¤ãƒ«æƒ…å ±:ãƒ‘ã‚¹ã‚’å–å¾—
 	 */
 	public String getPath() {
 		return objFile_.getPath();
 	}
 
 	/**
-	 * ƒtƒ@ƒCƒ‹î•ñ:ƒtƒ@ƒCƒ‹–¼‚ğæ“¾
+	 * ãƒ•ã‚¡ã‚¤ãƒ«æƒ…å ±:ãƒ•ã‚¡ã‚¤ãƒ«åã‚’å–å¾—
 	 */
 	public String getFileName() {
 		return objFile_.getName();
 	}
 
 	/**
-	 * ƒtƒ@ƒCƒ‹î•ñ:ƒtƒ@ƒCƒ‹ƒTƒCƒY‚ğæ“¾
+	 * ãƒ•ã‚¡ã‚¤ãƒ«æƒ…å ±:ãƒ•ã‚¡ã‚¤ãƒ«ã‚µã‚¤ã‚ºã‚’å–å¾—
 	 */
 	public long getFileSize() {
 		return objFile_.length();
 	}
 
 	/**
-	 * ƒtƒ@ƒCƒ‹î•ñ:ÅIXV“ú‚ğæ“¾
+	 * ãƒ•ã‚¡ã‚¤ãƒ«æƒ…å ±:æœ€çµ‚æ›´æ–°æ—¥æ™‚ã‚’å–å¾—
 	 */
 	public String getLastModified() {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
@@ -65,56 +65,56 @@ abstract class MP3Info {
 	}
 
 	/**
-	 * ID3:ƒ^ƒCƒgƒ‹‚ğæ“¾
+	 * ID3:ã‚¿ã‚¤ãƒˆãƒ«ã‚’å–å¾—
 	 */
 	abstract public String getTitle();
 
 	/**
-	 * ID3:ƒA[ƒeƒBƒXƒg–¼‚ğæ“¾
+	 * ID3:ã‚¢ãƒ¼ãƒ†ã‚£ã‚¹ãƒˆåã‚’å–å¾—
 	 */
 	abstract public String getArtist();
 
 	/**
-	 * ID3:ƒAƒ‹ƒoƒ€–¼‚ğæ“¾
+	 * ID3:ã‚¢ãƒ«ãƒãƒ åã‚’å–å¾—
 	 */
 	abstract public String getAlbum();
 
 	/**
-	 * ID3:ì¬”N‚ğæ“¾
+	 * ID3:ä½œæˆå¹´ã‚’å–å¾—
 	 */
 	abstract public String getYear();
 
 	/**
-	 * ID3:ƒRƒƒ“ƒg‚ğæ“¾
+	 * ID3:ã‚³ãƒ¡ãƒ³ãƒˆã‚’å–å¾—
 	 */
 	abstract public String getComment();
 
 	/**
-	 * ID3:ƒgƒ‰ƒbƒN”Ô†‚ğæ“¾(v1.1ˆÈ~)
+	 * ID3:ãƒˆãƒ©ãƒƒã‚¯ç•ªå·ã‚’å–å¾—(v1.1ä»¥é™)
 	 */
 	abstract public long getTrackNo();
 
 	/**
-	 * ID3:ƒWƒƒƒ“ƒ‹‚ğæ“¾
+	 * ID3:ã‚¸ãƒ£ãƒ³ãƒ«ã‚’å–å¾—
 	 */
 	abstract public long getGenre();
 
 	/**
-	 * ID3:ƒ^ƒOƒo[ƒWƒ‡ƒ“‚ğæ“¾
+	 * ID3:ã‚¿ã‚°ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚’å–å¾—
 	 */
 	abstract public String getTagVersion();
 
 	/**
-	 * ID3‚ğæ“¾
+	 * ID3ã‚’å–å¾—
 	 */
 	abstract public void getMP3Info(File objFile) throws UnsupportedEncodingException;
 
 	/**
-	 * ƒoƒCƒg’PˆÊ‚Åƒtƒ@ƒCƒ‹‚ğ“Ç‚Ş
-	 * @param objFile   “Ç‚İ‚İ‘ÎÛƒtƒ@ƒCƒ‹
-	 * @param iStartPos “Ç‚İ‚İŠJnˆÊ’u
-	 * @param iLength   “Ç‚İ‚İ’·
-	 * @return “Ç‚İ‚ñ‚¾ƒf[ƒ^(byte”z—ñ)
+	 * ãƒã‚¤ãƒˆå˜ä½ã§ãƒ•ã‚¡ã‚¤ãƒ«ã‚’èª­ã‚€
+	 * @param objFile   èª­ã¿è¾¼ã¿å¯¾è±¡ãƒ•ã‚¡ã‚¤ãƒ«
+	 * @param iStartPos èª­ã¿è¾¼ã¿é–‹å§‹ä½ç½®
+	 * @param iLength   èª­ã¿è¾¼ã¿é•·
+	 * @return èª­ã¿è¾¼ã‚“ã ãƒ‡ãƒ¼ã‚¿(byteé…åˆ—)
 	 */
 	static protected byte[] readFile(File objFile, int iStartPos, int iLength) {
 

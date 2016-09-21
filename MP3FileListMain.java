@@ -1,29 +1,29 @@
 /**
- * ID3Tag�擾�v���O�����FMP3FileListMain�N���X
- *  Main�N���X
+ * ID3Tag取得プログラム：MP3FileListMainクラス
+ *  Mainクラス
  *
  * [Usage]
- * �R���\�[�����AMP3�̃^�O�ꗗ���擾�������f�B���N�g���������Ɏw�肷��B
- * >java mp3filelist/MP3FileListMain <�f�B���N�g��>
+ * コンソールより、MP3のタグ一覧を取得したいディレクトリを引数に指定する。
+ * >java mp3filelist/MP3FileListMain <ディレクトリ>
  *
- * �W���o�͂�ID3 tag�̓��e��csv���ۂ��`���ŏo�͂��܂��B
- * �o�͓��e��ύX�������ꍇ�́AoutputFiles���\�b�h���C�����Ă��������B
- * �Ȃ��Av1.0�܂���v1.1 �� v2.3�̗����Ƃ��ݒ肳��Ă���ꍇ�A���҂Ƃ��o�͂���悤�ɂȂ��Ă��܂��B
+ * 標準出力にID3 tagの内容をcsvっぽい形式で出力します。
+ * 出力内容を変更したい場合は、outputFilesメソッドを修正してください。
+ * なお、v1.0またはv1.1 と v2.3の両方とも設定されている場合、両者とも出力するようになっています。
  *
  * Copyleft 2008, Kotatuinu.
  *
  * title   : ID3Tag Getter
- * author  : �x����
+ * author  : 炬燵犬
  * version : 0.1
  * mail    : kotatuinu@nifty.com
  * Website : http://homepage2.nifty.com/kotatuinu/
  * Released: 2008/03/09
  * NOTICE  : 
- * �{�v���O�����́A���p���p����щ��������R�ɍs���Ă��������Ă����܂��܂���B
- * �������Ajava�̍X�Ȃ锭�W�̂��߁A���������\�[�X�͌��J���Ă��������B
- * ���p�E�����̘A���͕s�v�ł��B
- * �Ȃ��A�{�v���O�����̗��p�ɂ�肠�Ȃ��A�܂��͂��Ȃ��̎��͂ɑ��Q���������Ă��A
- * �����͈�؊֒m���܂���B
+ * 本プログラムは、商用利用および改造を自由に行ってくださってもかまいません。
+ * ただし、javaの更なる発展のため、改造したソースは公開してください。
+ * 利用・改造の連絡は不要です。
+ * なお、本プログラムの利用によりあなた、またはあなたの周囲に損害が発生しても、
+ * 当方は一切関知しません。
  *  - USE THIS PROGRAM AT YOUR OWN RISK -
 **/
 package mp3filelist;
@@ -46,14 +46,14 @@ public class MP3FileListMain {
 	 */
 	public static void main(String[] args) throws UnsupportedEncodingException {
 		if(args.length < 1) {
-			System.out.print("�����Ƀf�B���N�g�����w�肵��\n");
+			System.out.print("引数にディレクトリを指定して\n");
 			return;
 		}
 		File objFile = new File(args[0]);
 		
 		if(!objFile.isDirectory()) {
-			System.out.print("�����Ɏw�肵���̂́A�f�B���N�g���ł͂Ȃ�\n");
-			System.out.print("�����Ƀf�B���N�g�����w�肵��\n");
+			System.out.print("引数に指定したのは、ディレクトリではない\n");
+			System.out.print("引数にディレクトリを指定して\n");
 			return;
 		}
 		
@@ -113,7 +113,7 @@ public class MP3FileListMain {
 					System.out.print(lTypeNo_ + ",");
 					System.out.print(lSeriesNo + ",");
 
-					MP3Info objMP3Info = (MP3Info)objMP3List.get(i);	// �b��I
+					MP3Info objMP3Info = (MP3Info)objMP3List.get(i);	// 暫定的
 
 					System.out.print(objMP3Info.getLastModified() + ",");
 					System.out.print(objMP3Info.getFileSize() + ",");

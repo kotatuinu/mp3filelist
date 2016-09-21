@@ -1,21 +1,21 @@
 /**
- * ID3Tagæ“¾ƒvƒƒOƒ‰ƒ€FID3V1InfoƒNƒ‰ƒX
- *  ID3Tag‚ÌVer1.0/1.1 æ“¾ƒNƒ‰ƒX
+ * ID3Tagå–å¾—ãƒ—ãƒ­ã‚°ãƒ©ãƒ ï¼šID3V1Infoã‚¯ãƒ©ã‚¹
+ *  ID3Tagã®Ver1.0/1.1 å–å¾—ã‚¯ãƒ©ã‚¹
  *
  * Copyleft 2008, Kotatuinu.
  *
  * title   : ID3Tag Getter
- * author  : àxàŒ¢
+ * author  : ç‚¬ç‡µçŠ¬
  * version : 0.1
  * mail    : kotatuinu@nifty.com
  * Website : http://homepage2.nifty.com/kotatuinu/
  * Released: 2008/03/09
  * NOTICE  : 
- * –{ƒvƒƒOƒ‰ƒ€‚ÍA¤—p—˜—p‚¨‚æ‚Ñ‰ü‘¢‚ğ©—R‚És‚Á‚Ä‚­‚¾‚³‚Á‚Ä‚à‚©‚Ü‚¢‚Ü‚¹‚ñB
- * ‚½‚¾‚µAjava‚ÌX‚È‚é”­“W‚Ì‚½‚ßA‰ü‘¢‚µ‚½ƒ\[ƒX‚ÍŒöŠJ‚µ‚Ä‚­‚¾‚³‚¢B
- * —˜—pE‰ü‘¢‚Ì˜A—‚Í•s—v‚Å‚·B
- * ‚È‚¨A–{ƒvƒƒOƒ‰ƒ€‚Ì—˜—p‚É‚æ‚è‚ ‚È‚½A‚Ü‚½‚Í‚ ‚È‚½‚ÌüˆÍ‚É‘¹ŠQ‚ª”­¶‚µ‚Ä‚àA
- * “–•û‚ÍˆêØŠÖ’m‚µ‚Ü‚¹‚ñB
+ * æœ¬ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã¯ã€å•†ç”¨åˆ©ç”¨ãŠã‚ˆã³æ”¹é€ ã‚’è‡ªç”±ã«è¡Œã£ã¦ãã ã•ã£ã¦ã‚‚ã‹ã¾ã„ã¾ã›ã‚“ã€‚
+ * ãŸã ã—ã€javaã®æ›´ãªã‚‹ç™ºå±•ã®ãŸã‚ã€æ”¹é€ ã—ãŸã‚½ãƒ¼ã‚¹ã¯å…¬é–‹ã—ã¦ãã ã•ã„ã€‚
+ * åˆ©ç”¨ãƒ»æ”¹é€ ã®é€£çµ¡ã¯ä¸è¦ã§ã™ã€‚
+ * ãªãŠã€æœ¬ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã®åˆ©ç”¨ã«ã‚ˆã‚Šã‚ãªãŸã€ã¾ãŸã¯ã‚ãªãŸã®å‘¨å›²ã«æå®³ãŒç™ºç”Ÿã—ã¦ã‚‚ã€
+ * å½“æ–¹ã¯ä¸€åˆ‡é–¢çŸ¥ã—ã¾ã›ã‚“ã€‚
  *  - USE THIS PROGRAM AT YOUR OWN RISK -
 **/
 package mp3filelist;
@@ -52,21 +52,21 @@ public class ID3V1Info extends MP3Info {
 	}
 
 	/**
-	 * ID3:ƒ^ƒCƒgƒ‹‚ğæ“¾
+	 * ID3:ã‚¿ã‚¤ãƒˆãƒ«ã‚’å–å¾—
 	 */
 	public String getTitle() {
 		return Title_;
 	}
 
 	/**
-	 * ID3:ƒA[ƒeƒBƒXƒg–¼‚ğæ“¾
+	 * ID3:ã‚¢ãƒ¼ãƒ†ã‚£ã‚¹ãƒˆåã‚’å–å¾—
 	 */
 	public String getArtist() {
 		return Artist_;
 	}
 
 	/**
-	 * ID3:ƒAƒ‹ƒoƒ€–¼‚ğæ“¾
+	 * ID3:ã‚¢ãƒ«ãƒãƒ åã‚’å–å¾—
 	 */
 	public String getAlbum() {
 		return Album_;
@@ -74,21 +74,21 @@ public class ID3V1Info extends MP3Info {
 
 
 	/**
-	 * ID3:ì¬”N‚ğæ“¾
+	 * ID3:ä½œæˆå¹´ã‚’å–å¾—
 	 */
 	public String getYear() {
 		return Year_;
 	}
 
 	/**
-	 * ID3:ƒRƒƒ“ƒg‚ğæ“¾
+	 * ID3:ã‚³ãƒ¡ãƒ³ãƒˆã‚’å–å¾—
 	 */
 	public String getComment() {
 		return Comment_;
 	}
 
 	/**
-	 * ID3:ƒgƒ‰ƒbƒN”Ô†‚ğæ“¾(v1.1ˆÈ~)
+	 * ID3:ãƒˆãƒ©ãƒƒã‚¯ç•ªå·ã‚’å–å¾—(v1.1ä»¥é™)
 	 */
 	public long getTrackNo() {
 		return TrackNo_;
@@ -96,21 +96,21 @@ public class ID3V1Info extends MP3Info {
 
 
 	/**
-	 * ID3:ƒWƒƒƒ“ƒ‹”Ô†‚ğæ“¾
+	 * ID3:ã‚¸ãƒ£ãƒ³ãƒ«ç•ªå·ã‚’å–å¾—
 	 */
 	public long getGenre() {
 		return Genre_;
 	}
 
 	/**
-	 * ID3:ƒ^ƒOƒo[ƒWƒ‡ƒ“‚ğæ“¾
+	 * ID3:ã‚¿ã‚°ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚’å–å¾—
 	 */
 	public String getTagVersion() {
 		return TagVer_;
 	}
 
 	/**
-	 * ID3V1‚©”»’è
+	 * ID3V1ã‹åˆ¤å®š
 	 * @note MP3 Tag V1 is Last 128-130Byte data = TAG(0x54, 0x41, 0x47)
 	 */
 	static public boolean isSettingID3(File objFile) {
